@@ -35,7 +35,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@okta/configuration-validation": "^0.1.1",
-    "@okta/okta-auth-js": "^2.0.0"
+    "@okta/okta-auth-js": "https://github.com/dixso/okta-auth-js.git"
   },
   "devDependencies": {
     "@angular/common": "^4.4.3",

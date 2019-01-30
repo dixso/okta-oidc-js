@@ -47,7 +47,8 @@ export class OktaAuthService {
       this.oktaAuth = new OktaAuth({
         clientId: auth.clientId,
         issuer: auth.issuer,
-        redirectUri: auth.redirectUri
+        redirectUri: auth.redirectUri,
+        nonce: auth.nonce
       });
 
       this.oktaAuth.userAgent = `${packageInfo.name}/${packageInfo.version} ${this.oktaAuth.userAgent}`;
